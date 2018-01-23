@@ -222,7 +222,8 @@
 	box-shadow: none;
 }
 #synapse-server-list div.synapse-server-list-header {
-	padding: 14px;
+/* 	padding: 14px; */
+	padding:  6px 14px;
 };
 #synapse-server-list div.synapse-server-list-header .title {
 	color: #89929b;
@@ -240,7 +241,8 @@
 	overflow-y: auto;
 }
 #synapse-server-list div.list div.wrapper {
-	padding: 14px 7px 5px 7px;
+/* 	padding: 14px 7px 5px 7px; */
+	padding: 12px 7px 5px 7px;
 }
 
 
@@ -286,13 +288,15 @@
 }
 
 #synapse-server-list div.list div.item div.synapse-server-list-name p {
-	font-size: 16px;
+	font-size: 15px;
 	margin: 0;
-	padding-bottom: 5px;
+	padding-bottom: 4px;
 	color: #18cae0;
 }
 #synapse-server-list div.list div.item div.synapse-server-list-info {
-	padding-top: 5px;
+	padding-top: 2px;
+	padding-bottom: 4px;
+	height: 16px;
 }
 #synapse-server-list div.list div.item div.synapse-server-list-name span {
 	font-size: 0.8em;

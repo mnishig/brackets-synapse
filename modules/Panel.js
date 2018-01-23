@@ -242,7 +242,7 @@ define(function (require, exports, module) {
 					}
 					
 					var version = PreferenceManager.getVersion();
-					$(".synapse-current-version").html("version&nbsp;" + version);
+					$(".synapse-current-version").html("ver.&nbsp;" + version);
 
 
 					d.resolve();
